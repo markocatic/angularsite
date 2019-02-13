@@ -1,0 +1,29 @@
+<div class="games">
+    <div class="container">
+      <div class="page-path">
+        <ul class="path-list">
+          <li><a href="index.html">Home</a></li>&nbsp;&nbsp;/&nbsp;&nbsp;
+          <li class="act">Blog</li>
+        </ul>
+        <p><a href="index.html">Back to Home</a></p>
+        <div class="clearfix"></div>
+      </div>
+      <h3 class="page-header">
+        Recent Blogs
+      </h3>
+      <div class="blog-content">
+        <div *ngFor="let po of post" class="blog-post">
+          <h3><a routerLink="/singlePage">{{po.naslov}}</a></h3>
+          <div class="post-details">
+            <p>Posted By <a href="#">{{po.postby | uppercase}}</a> &nbsp;&nbsp; On <span>{{po.datum}}</span> &nbsp;&nbsp;</p>
+          </div>
+          <img src="{{po.src}}" alt="{{po.alt}}">
+          <h4>{{po.opis}}</h4>
+          <p>{{po.opiscic}}</p>
+          <nav class="cl-effect-3"><a routerLink="/singlePage">More</a></nav>
+        </div>
+        
+      </div><div class="clearfix"></div>
+		
+    </div>
+  </div>

@@ -1,0 +1,31 @@
+<div class="games">
+        <div class="container" *ngFor="let s of single">
+            <div class="page-path">
+              
+                <div class="clearfix"></div>
+            </div>
+            <h3 class="page-header">
+                Recent Blogs
+            </h3>
+            <div class="blog-content">
+                <div class="blog-post">
+                    <h3><a href="#">{{s.naslov | uppercase}}</a></h3>
+                    <div class="post-details">
+                        <p>Posted By <a href="#">{{s.postby}}</a> &nbsp;&nbsp; On <span>{{s.datum}}</span> &nbsp;&nbsp;</p><br/>
+                        <p>Price: {{s.cena | currency:'EUR'}}</p>
+                    </div>
+                    <img src="{{s.src}}" alt="{{s.alt}}">
+                    <h4>{{s.opis | uppercase}}</h4>
+                    
+                    
+                    <div [@popOverState]="stateName">
+                            <p>{{s.opiscic}}</p>
+                    </div>
+                    <button (click)="toggle()">More</button>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            
+        </div>
+    </div>
+    

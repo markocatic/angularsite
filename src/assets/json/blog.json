@@ -1,0 +1,35 @@
+[{
+    "id" : 1,
+    "naslov" : "New assassins creed is coming out soon!",
+    "opis" : "Developers said to be one of the best combat games yet",
+    "datum" : "14.06.2018",
+    "postby" : "Marko",
+    "alt" : "Slika1",
+    "src" : "assets/images/blog1.jpg",
+    "opiscic": "Still not too much informations about the new game, but developers said it will be revolutionary. It has it all : Graphics, Combat, Missions, fun!"
+},
+{
+    "id" : 2,
+    "naslov" : "Watch Dogs 3",
+    "opis" : "For the third time not really living up to its expectations",
+    "datum" : "18.06.2018",
+    "postby" : "Stefan",
+    "alt" : "Slika2",
+    "src" : "assets/images/blog2.jpg",
+    "opiscic": "We expected much more. Why do they even bother putting so much pressure on themselves? Watch dogs 3 had weak storyline, no punch, and a disasterous ending!"
+
+},
+{
+    "id" : 3,
+    "naslov" : "Call of Duty 2 : 2",
+    "opis" : "We already lost the count of how many games they have made. Is it like 30?",
+    "datum" : "14.07.2018",
+    "postby" : "Marija",
+    "alt" : "Slika3",
+    "src" : "assets/images/blog3.jpg",
+    "opiscic": "Every year same thing. Huge hype for the game, and in the end : Same story. We start with jumping out of a heli, just to have some solo missions which are really fun, but then again the same co-op missions."
+
+    
+}
+
+]

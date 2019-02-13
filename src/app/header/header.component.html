@@ -1,0 +1,29 @@
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+		</div>
+		<span class="menu"></span>
+		<div class="navigation">
+			<ul class="navig cl-effect-3" >
+			
+				<li *ngFor="let nav of navigacija"><a routerLink="{{nav.href}}">{{nav.naziv}}</a></li>
+			</ul>
+			<div class="search-bar">
+					<input type="text" placeholder="search" required=""  value="search"/>
+					<input type="submit" value="" />
+			</div>
+			<div class="clearfix"></div>
+			<script>
+				$( "span.menu" ).click(function() {
+				  $( ".navigation" ).slideToggle( "slow", function() {
+				    // Animation complete.
+				  });
+				});
+			</script>
+
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="banner"></div>
